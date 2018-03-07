@@ -8,7 +8,7 @@ public class App {
 
 	public static void main(String[] args) throws IOException {
 
-		Scanner scanner = new Scanner(Paths.get("resource/input.txt"));
+		Scanner scanner = new Scanner(System.in);
 		int amountOfLines = Integer.parseInt(scanner.nextLine());
 
 		String[] rang = new String[13];
